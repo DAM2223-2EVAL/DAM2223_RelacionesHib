@@ -12,7 +12,7 @@
   <property name="hibernate.show_sql">true</property>
   <property name="hibernate.format_sql">true</property>
   <property name="hibernate.hbm2ddl.auto">create</property>
-  <mapping class="com.dam.hibernateonetomany.Pais"/>
-  <mapping class="com.dam.hibernateonetomany.Presidente"/>
+  <mapping class="com.dam.hibernatemanytomany.Pais"/>
+  <mapping class="com.dam.hibernatemanytomany.Presidente"/>
  </session-factory>
 </hibernate-configuration>
